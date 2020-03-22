@@ -33,7 +33,7 @@ A clear and concise description of what you expected to happen.
 
 ## Your Environment
 
-- *node version*: 6,8,10
+- *node version*: 10, 12, 13
 - *fastify version*: >=2.0.0
 - *os*: Mac, Windows, Linux
 - *any other relevant information*
