@@ -4,9 +4,31 @@ the requirements below.
 
 Bug fixes and new features should include tests and possibly benchmarks.
 
-Tip: `npm run bench` to compare branches interactively.
-
 Contributors guide: https://github.com/fastify/fastify/blob/master/CONTRIBUTING.md
+
+By making a contribution to this project, I certify that:
+
+* (a) The contribution was created in whole or in part by me and I
+  have the right to submit it under the open source license
+  indicated in the file; or
+
+* (b) The contribution is based upon previous work that, to the best
+  of my knowledge, is covered under an appropriate open source
+  license and I have the right under that license to submit that
+  work with modifications, whether created in whole or in part
+  by me, under the same open source license (unless I am
+  permitted to submit under a different license), as indicated
+  in the file; or
+
+* (c) The contribution was provided directly to me by some other
+  person who certified (a), (b) or (c) and I have not modified
+  it.
+
+* (d) I understand and agree that this project and the contribution
+  are public and that a record of the contribution (including all
+  personal information I submit with it, including my sign-off) is
+  maintained indefinitely and may be redistributed consistent with
+  this project or the open source license(s) involved.
 -->
 
 #### Checklist
@@ -14,4 +36,5 @@ Contributors guide: https://github.com/fastify/fastify/blob/master/CONTRIBUTING.
 - [ ] run `npm run test` and `npm run benchmark`
 - [ ] tests and/or benchmarks are included
 - [ ] documentation is changed or added
-- [ ] commit message and code follows [Code of conduct](https://github.com/fastify/fastify/blob/master/CODE_OF_CONDUCT.md)
+- [ ] commit message and code follows the [Developer's Certification of Origin](https://github.com/fastify/.github/blob/master/CONTRIBUTING.md#developers-certificate-of-origin-11)
+      and the [Code of conduct](https://github.com/fastify/.github/blob/master/CODE_OF_CONDUCT.md)
