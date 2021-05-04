@@ -24,7 +24,7 @@ body:
     id: fastify-version
     attributes:
       label: Fastify version
-      placeholder: 3.X.X
+      placeholder: 3.x.x
     validations:
       required: true
 
@@ -32,7 +32,7 @@ body:
     id: node-version
     attributes:
       label: Node.js version
-      placeholder: 14
+      placeholder: 14.x
     validations:
       required: true
 
