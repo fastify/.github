@@ -17,8 +17,7 @@ body:
       - label: I have written a descriptive issue title
         required: true
       - label: | 
-          I have searched [existing issues](https://github.com/fastify/fastify/issues)
-          to ensure it has not already been reported
+          I have searched existing issues to ensure it has not already been reported
         required: true
 
   - type: input
