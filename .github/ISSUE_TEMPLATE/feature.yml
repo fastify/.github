@@ -18,7 +18,7 @@ body:
       - label: I have written a descriptive issue title
         required: true
       - label: | 
-          I have searched existing issues to ensure it has not already been requested
+          I have searched existing issues to ensure the feature has not already been requested
         required: true
 
   - type: textarea
