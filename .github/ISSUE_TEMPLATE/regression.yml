@@ -1,5 +1,5 @@
-name: 🐛 Bug report
-description: Create a report to help us improve
+name: 💥 Regression Report
+description: Report unexpected behavior that worked in previous versions
 
 body:
 
@@ -17,22 +17,24 @@ body:
       - label: I have written a descriptive issue title
         required: true
       - label: | 
-          I have searched existing issues to ensure the bug has not already been reported
+          I have searched existing issues to ensure the regression has not already been reported
         required: true
 
   - type: input
-    id: fastify-version
+    id: working-version
     attributes:
-      label: Fastify version
-      placeholder: 3.x.x
+      label: Last working version
+      placeholder: 1.x.x
     validations:
       required: true
 
   - type: input
-    id: plugin-version
+    id: stopped-working-version
     attributes:
-      label: Plugin version
-      placeholder: 1.x.x
+      label: Stopped working in version
+      placeholder: 2.x.x
+    validations:
+      required: true
 
   - type: input
     id: node-version
@@ -63,8 +65,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: A clear and concise description of what the bug is.
+      label: 💥 Regression Report
+      description: A clear and concise description of what the regression is.
     validations:
       required: true
 
