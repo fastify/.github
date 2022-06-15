@@ -13,7 +13,7 @@ Please read our [SECURITY.md](https://github.com/fastify/.github/blob/main/SECUR
 Individuals who find potential vulnerabilities in a package are invited
 to complete a vulnerability report on the dedicated HackerOne organization:
 
-[https://hackerone.com/fastify](https://hackerone.com/fasity)
+[https://hackerone.com/fastify](https://hackerone.com/fastify)
 
 Vulnerabilities can also be reported by emailing to Fastify core members: 
 
