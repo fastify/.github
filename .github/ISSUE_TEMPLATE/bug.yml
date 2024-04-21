@@ -23,7 +23,7 @@ body:
     id: fastify-version
     attributes:
       label: Fastify version
-      placeholder: 3.x.x
+      placeholder: 4.x.x
     validations:
       required: true
 
