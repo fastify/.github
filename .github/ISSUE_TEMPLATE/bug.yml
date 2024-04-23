@@ -2,7 +2,6 @@ name: 🐛 Bug report
 description: Create a report to help us improve
 
 body:
-
   - type: markdown
     attributes:
       value: |
@@ -14,17 +13,17 @@ body:
     attributes:
       label: Prerequisites
       options:
-      - label: I have written a descriptive issue title
-        required: true
-      - label: | 
-          I have searched existing issues to ensure the bug has not already been reported
-        required: true
+        - label: I have written a descriptive issue title
+          required: true
+        - label: |
+            I have searched existing issues to ensure the bug has not already been reported
+          required: true
 
   - type: input
     id: fastify-version
     attributes:
       label: Fastify version
-      placeholder: 3.x.x
+      placeholder: 4.x.x
     validations:
       required: true
 
@@ -38,7 +37,7 @@ body:
     id: node-version
     attributes:
       label: Node.js version
-      placeholder: 14.x
+      placeholder: 18.x
     validations:
       required: true
 
@@ -68,15 +67,19 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: steps-to-reproduce
+  - type: input
+    id: mre
     attributes:
-      label: Steps to Reproduce
+      label: Link to code that reproduces the bug
       description: |
-        List of steps, sample code, or a link to code or a project that reproduces the behavior.
-        Make sure you place a stack trace inside a [code (```) block](https://docs.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks) to avoid linking unrelated issues.
-    validations:
-      required: true
+        A link to a **public** GitHub repository containing a [minimal reproducible example](https://en.wikipedia.org/wiki/Minimal_reproducible_example) (MRE).
+        It should be the bare minimum code needed to trigger the issue, and easily runnable without any changes or extra code.
+        Code should not be in a meta-framework like Next.js, Gatsby, etc.
+
+        Examples of MREs:
+        - https://github.com/fastify/fastify/issues/3617
+        - https://github.com/fastify/fastify/issues/2990
+        - https://github.com/fastify/fastify/issues/3094
 
   - type: textarea
     id: expected-behavior
