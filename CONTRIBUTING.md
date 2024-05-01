@@ -6,7 +6,7 @@ Individuals making significant and valuable contributions are given
 commit-access to the project to contribute as they see fit. This project is more
 like an open wiki than a standard guarded open source project.
 
-See our [informal contributing guide](./docs/Guides/Contributing.md) for more
+See our [informal contributing guide](https://github.com/fastify/fastify/blob/main/docs/Guides/Contributing.md) for more
 details on contributing to this project.
 
 ### I want to be a collaborator!
@@ -14,7 +14,7 @@ details on contributing to this project.
 If you think you meet the above criteria and we have not invited you yet, we are
 sorry! Feel free reach out to a [Lead
 Maintainer](https://github.com/fastify/fastify#team) privately with a few links
-to your valuable contributions. Read the [GOVERNANCE](GOVERNANCE.md) to get more
+to your valuable contributions. Read the [GOVERNANCE](GOVERNANCE.md) for more
 information.
 
 ## Rules
@@ -38,10 +38,10 @@ There are a few basic ground-rules for contributors:
 
 ### Fastify previous versions
 
-Every Fastify's version is on its own branch. All Fastify related
+Every Fastify version is on its own branch. All Fastify related
 changes should be based on the corresponding branch.
 
-We have a [Long Term Support](./docs/Reference/LTS.md) policy that defines
+We have a [Long Term Support](https://github.com/fastify/fastify/blob/main/docs/Reference/LTS.md) policy that defines
 the organization efforts for each Fastify's version.
 
 |Version|Branch|
@@ -57,7 +57,7 @@ not bump version numbers in pull requests.
 
 ## Plugins
 
-The contributors to the Fastify's plugins must attend the same rules of the
+Contributors to Fastify's plugins must attend the same rules of the
 Fastify repository with a few adjustments:
 
 1. Any member can publish a release.
@@ -86,7 +86,7 @@ Welcome to the team! We are happy to have you. Before you start, please complete
 the following tasks:
 1. Set up 2 factor authentication for GitHub and NPM
     - [GitHub
-    2FA](https://help.github.com/en/articles/securing-your-account-with-two-factor-authentication-2fa)
+    2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa)
     - [NPM 2FA](https://docs.npmjs.com/about-two-factor-authentication)
 2. Choose which team to join *(more than one is ok!)* based on how you want to
    help.
@@ -95,18 +95,20 @@ the following tasks:
 3. Open a pull request to
    [`fastify/fastify:HEAD`](https://github.com/fastify/fastify/pulls) that adds
    your name, username, and email to the team you have chosen in the
-   [README.md](./README.md) and [package.json](./package.json) *(if you are part
+   [README.md](https://github.com/fastify/fastify/blob/main/README.md) and [package.json](https://github.com/fastify/fastify/blob/main/package.json) *(if you are part
    of the core team)* files. The members lists are sorted alphabetically; make
    sure to add your name in the proper order.
 4. Open a pull request to
    [`fastify/website:HEAD`](https://github.com/fastify/website/pulls) adding
    yourself to the
-   [team.yml](https://github.com/fastify/website/blob/HEAD/src/website/data/team.yml)
+   [team.yml](https://github.com/fastify/website/blob/HEAD/static/data/team.yml)
    file. This list is also sorted alphabetically so make sure to add your name
    in the proper order. Use your GitHub profile icon for the `picture:` field.
 5. The person that does the onboarding must add you to the [npm
    org](https://www.npmjs.com/org/fastify), so that you can help maintaining the
    official plugins.
+6. Optionally, the person can be added as an Open Collective member 
+   by the lead team.
 
 ### Offboarding Collaborators
 
@@ -121,7 +123,7 @@ person that did the onboarding must:
   2. Open a pull request to
      [`fastify/website:HEAD`](https://github.com/fastify/website/pulls) and move
      themselves to the *Past Collaborators* section in the
-     [team.yml](https://github.com/fastify/website/blob/HEAD/src/website/data/team.yml)
+     [team.yml](https://github.com/fastify/website/blob/HEAD/static/data/team.yml)
      file.
 
 The person that did the onboarding must:
@@ -131,6 +133,7 @@ The person that did the onboarding must:
 3. Remove the collaborator from the [npm
    org](https://www.npmjs.com/org/fastify).
 4. Remove the collaborator from the Azure team.
+5. Remove the collaborator from the Open Collective members.
 -----------------------------------------
 
 <a id="developers-certificate-of-origin"></a>
