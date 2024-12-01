@@ -57,7 +57,8 @@ following the [CONTRIBUTING](CONTRIBUTING.md#rules) guidelines.
 * Release plugins
 
 The Lead Maintainers can remove inactive Collaborators or provide them with
-_Past Collaborators_ status. Past Collaborators may request that the Lead
+_Past Collaborators_ status (example: no contributions for 2 years).
+Past Collaborators may request that the Lead
 Maintainers restore them to active status.
 
 
