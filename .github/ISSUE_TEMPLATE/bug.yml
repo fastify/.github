@@ -80,6 +80,8 @@ body:
         - https://github.com/fastify/fastify/issues/3617
         - https://github.com/fastify/fastify/issues/2990
         - https://github.com/fastify/fastify/issues/3094
+    validations:
+      required: true
 
   - type: textarea
     id: expected-behavior
