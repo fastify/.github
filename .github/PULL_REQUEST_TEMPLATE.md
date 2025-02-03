@@ -4,7 +4,7 @@ the requirements below.
 
 Bug fixes and new features should include tests and possibly benchmarks.
 
-Contributors guide: https://github.com/fastify/fastify/blob/master/CONTRIBUTING.md
+Contributors guide: https://github.com/fastify/fastify/blob/main/CONTRIBUTING.md
 
 By making a contribution to this project, I certify that:
 
@@ -36,5 +36,5 @@ By making a contribution to this project, I certify that:
 - [ ] run `npm run test` and `npm run benchmark`
 - [ ] tests and/or benchmarks are included
 - [ ] documentation is changed or added
-- [ ] commit message and code follows the [Developer's Certification of Origin](https://github.com/fastify/.github/blob/master/CONTRIBUTING.md#developers-certificate-of-origin-11)
-      and the [Code of conduct](https://github.com/fastify/.github/blob/master/CODE_OF_CONDUCT.md)
+- [ ] commit message and code follows the [Developer's Certification of Origin](https://github.com/fastify/.github/blob/main/CONTRIBUTING.md#developers-certificate-of-origin-11)
+      and the [Code of conduct](https://github.com/fastify/.github/blob/main/CODE_OF_CONDUCT.md)
