@@ -33,7 +33,7 @@ By making a contribution to this project, I certify that:
 
 #### Checklist
 
-- [ ] run `npm run test` and `npm run benchmark`
+- [ ] run `npm run test && npm run benchmark --if-present`
 - [ ] tests and/or benchmarks are included
 - [ ] documentation is changed or added
 - [ ] commit message and code follows the [Developer's Certification of Origin](https://github.com/fastify/.github/blob/main/CONTRIBUTING.md#developers-certificate-of-origin-11)
