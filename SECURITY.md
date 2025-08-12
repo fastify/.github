@@ -6,8 +6,8 @@ project and its official plugins.
 ## Reporting vulnerabilities
 
 Individuals who find potential vulnerabilities in Fastify are invited to
-complete a vulnerability report via the dedicated HackerOne page:
-[https://hackerone.com/fastify](https://hackerone.com/fastify).
+complete a vulnerability report via the GitHub Security Advisory:
+[https://github.com/fastify/fastify/security/advisories/new](https://github.com/fastify/fastify/security/advisories/new).
 
 ### Strict measures when reporting vulnerabilities
 
@@ -15,13 +15,13 @@ It is of the utmost importance that you read carefully and follow these
 guidelines to ensure the ecosystem as a whole isn't disrupted due to improperly
 reported vulnerabilities:
 
-* Avoid creating new "informative" reports on HackerOne. Only create new
-  HackerOne reports on a vulnerability if you are absolutely sure this should be
+* Avoid creating new "informative" reports on GitHub Security Advisory. Only create new
+  security reports on a vulnerability if you are absolutely sure this should be
   tagged as an actual vulnerability. Third-party vendors and individuals are
-  tracking any new vulnerabilities reported in HackerOne and will flag them as
+  tracking any new vulnerabilities reported in GitHub Security Advisory and will flag them as
   such for their customers (think about snyk, npm audit, ...).
-* HackerOne reports should never be created and triaged by the same person. If
-  you are creating a HackerOne report for a vulnerability that you found, or on
+* Security reports should never be created and triaged by the same person. If
+  you are creating a security report for a vulnerability that you found, or on
   behalf of someone else, there should always be a 2nd Security Team member who
   triages it. If in doubt, invite more Fastify Collaborators to help triage the
   validity of the report. In any case, the report should follow the same process
@@ -39,8 +39,8 @@ reported vulnerabilities:
 
 ### Vulnerabilities found outside this process
 
-⚠ The Fastify project does not support any reporting outside the HackerOne
-process.
+⚠ The Fastify project does not support any reporting outside the GitHub Security Advisory
+process described in this document.
 
 ## Handling vulnerability reports
 
@@ -63,8 +63,7 @@ Triaging should include updating issue fields:
 * Asset - set/create the module affected by the report
 * Severity - TBD, currently left empty
 
-Reference: [HackerOne: Submitting
-Reports](https://docs.hackerone.com/hackers/submitting-reports.html)
+Reference: [GitHub Security Advisory](https://docs.github.com/en/code-security/security-advisories/repository-security-advisories/creating-a-repository-security-advisory)
 
 ### Correction follow-up
 
@@ -93,24 +92,19 @@ The report's vulnerable versions upper limit should be set to:
 Within 90 days after the triage date, the vulnerability must be made public.
 
 **Severity**: Vulnerability severity is assessed using [CVSS
-v.3](https://www.first.org/cvss/user-guide). More information can be found on
-[HackerOne documentation](https://docs.hackerone.com/hackers/severity.html)
+v.3](https://www.first.org/cvss/user-guide).
 
 If the package maintainer is actively developing a patch, an additional delay
 can be added with the approval of the security team and the individual who
 reported the vulnerability.
 
-At this point, a CVE should be requested through the HackerOne platform through
-the UI, which should include the Report ID and a summary.
+At this point, a CVE should be requested through GitHub Security Advisory, which should include the Report ID and a summary.
 
-Within HackerOne, this is handled through a "public disclosure request".
-
-Reference: [HackerOne:
-Disclosure](https://docs.hackerone.com/hackers/disclosure.html)
+Reference: [GitHub Security Advisories](https://docs.github.com/en/code-security/security-advisories)
 
 ## The Fastify Security team
 
-The core team is responsible for the management of HackerOne program and this
+The core team is responsible for the management of the security program and this
 policy and process.
 
 Members of this team are expected to keep all information that they have
