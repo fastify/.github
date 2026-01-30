@@ -6,8 +6,13 @@ project and its official plugins.
 ## Reporting vulnerabilities
 
 Individuals who find potential vulnerabilities in Fastify are invited to
-complete a vulnerability report via the GitHub Security Advisory:
-[https://github.com/fastify/fastify/security/advisories/new](https://github.com/fastify/fastify/security/advisories/new).
+complete a vulnerability report via the [GitHub Security Advisory][advisory].
+
+> **Note:** Historically, the Fastify project used [HackerOne](https://hackerone.com/fastify)
+> for vulnerability reporting. That program is now closed. All new vulnerability
+> reports should be submitted through GitHub Security Advisories of the individual projects.
+
+[advisory]: ../../security/advisories/new
 
 ### Strict measures when reporting vulnerabilities
 
