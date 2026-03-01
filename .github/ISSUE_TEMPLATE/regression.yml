@@ -16,7 +16,7 @@ body:
       options:
       - label: I have written a descriptive issue title
         required: true
-      - label: | 
+      - label: |
           I have searched existing issues to ensure the regression has not already been reported
         required: true
 

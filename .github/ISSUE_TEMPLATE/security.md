@@ -15,6 +15,6 @@ to complete a vulnerability report on the dedicated HackerOne organization:
 
 [https://hackerone.com/fastify](https://hackerone.com/fastify)
 
-Vulnerabilities can also be reported by emailing to Fastify core members: 
+Vulnerabilities can also be reported by emailing to Fastify core members:
 
 - [Matteo Collina](mailto:matteo.collina@gmail.com)
