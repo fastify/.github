@@ -38,3 +38,4 @@ By making a contribution to this project, I certify that:
 - [ ] documentation is changed or added
 - [ ] commit message and code follows the [Developer's Certification of Origin](https://github.com/fastify/.github/blob/main/CONTRIBUTING.md#developers-certificate-of-origin-11)
       and the [Code of conduct](https://github.com/fastify/.github/blob/main/CODE_OF_CONDUCT.md)
+- [ ] This PR follows the [Open Source AI Manifesto](https://human-oss.dev)
