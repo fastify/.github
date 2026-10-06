@@ -34,6 +34,8 @@ They are split into the following teams:
 | `@fastify/plugins`   |  Build, maintain and release Fastify plugins  |  All plugins repositories |
 | `@fastify/benchmarks`   |  Build and maintain our benchmarks suite  |  `benchmarks` |
 | `@fastify/docs-chinese`   |  Translate the Fastify documentation in Chinese  |  `docs-chinese` |
+| `@fastify/security`   |  Handle security reports (triage, patches...)  |  All repositories ([Security Managers](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization) in the Org) |
+
 
 Every member of the org is also part of `@fastify/fastify`.
 
